@@ -60,6 +60,7 @@ model Section {
   id Int @id
   name String
   start_term_id Int
+  end_term_id Int
   teachers Teacher[] 
   students Student[]
   termGrades TermGrade[]
